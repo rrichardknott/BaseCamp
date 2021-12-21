@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+#reviewSubmitButton {
+  width: 100px;
+  background: lightseagreen;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+#flash-alert {
+  width: 400px;
+}
+#error-alert {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#clusterMap {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+
+#detailsMap {
+  width: 100%;
+  height: 300px;
+}
+
+#index-images {
+  width: 100%;
+  height: 270px;
+}
+
+#index-all-campgrounds-container h1 {
+  text-align: center;
+  margin: 555px 0 50px 0;
+}
+
+#index-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#index-camp-container {
+  width: 30%;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#camp-description {
+  text-align: justify;
+  margin: 15px;
+}
+
+#camp-title {
+  margin: 25px;
+  font-weight: 600;
+}
+
+#card-button {
+  width: 30%;
+  background: lightseagreen;
+  padding: 12px 18px;
+  border-radius: 90px;
+  color: white;
+  text-decoration: none;
+}
+
+/* DETAILS PAGE */
+#edit-and-delete-container .btn {
+  width: 100px;
+}
+
+#edit-button {
+  background-color: lightseagreen;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid lightseagreen;
+}
+
+#details-review-submit-button {
+  width: 100px;
+  background-color: lightseagreen;
+  outline: none;
+  border: 1px solid lightseagreen;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+}
+
+/* EDIT PAGE */
+#edit-update-and-back-button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+#edit-update-button {
+  width: 100px;
+  background-color: lightseagreen;
+  outline: none;
+  border: 1px solid lightseagreen;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+#edit-back-button {
+  width: 100px;
+  background-color: lightseagreen;
+  outline: none;
+  border: 1px solid lightseagreen;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+#edit-delete-label {
+  color: red;
+}
+
+/* NEW CAMPGROUND PAGE */
+#new-add-all-button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+#new-add-button {
+  width: 125px;
+  background-color: lightseagreen;
+  outline: none;
+  border: 1px solid lightseagreen;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+#new-all-button {
+  width: 125px;
+  background-color: lightseagreen;
+  outline: none;
+  border: 1px solid lightseagreen;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
