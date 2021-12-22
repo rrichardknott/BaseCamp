@@ -34,7 +34,7 @@ body {
   top: 55px;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 300px;
 }
 
 #detailsMap {
@@ -49,7 +49,7 @@ body {
 
 #index-all-campgrounds-container h1 {
   text-align: center;
-  margin: 555px 0 50px 0;
+  margin: 355px 0 50px 0;
 }
 
 #index-container {
@@ -59,7 +59,7 @@ body {
 }
 
 #index-camp-container {
-  width: 30%;
+  width: 33%;
   padding-bottom: 25px;
   text-align: center;
 }
@@ -166,4 +166,15 @@ body {
 
 footer {
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 992px) {
+  #index-container {
+    flex-direction: column;
+  }
+  #index-camp-container {
+    width: 80%;
+    align-self: center;
+  }
 }
