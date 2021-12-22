@@ -49,7 +49,8 @@ main {
   flex-direction: column;
   line-height: 2.5em;
   position: relative;
-  top: -250px;
+  top: -15%;
+  align-self: center;
 }
 
 main h1,
@@ -60,4 +61,11 @@ main p {
 #home-button {
   width: 250px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 667px) {
+  main {
+    line-height: 25px;
+    text-align: justify;
+  }
 }
