@@ -76,17 +76,20 @@ const sessionConfig = {
 app.use(session(sessionConfig));
 app.use(flash());
 app.use(mongoSanitize());
-app.use(helmet());
+//app.use(helmet());
 // app.use(helmet({ contentSecurityPolicy: false }));
+// comment
 
 const scriptSrcUrls = [
   "https://stackpath.bootstrapcdn.com/",
   "https://api.tiles.mapbox.com/",
   "https://api.mapbox.com/",
   "https://kit.fontawesome.com/",
+  "https://kit-free.fontawesome.com",
   "https://cdnjs.cloudflare.com/",
+  "https://fonts.gstatic.com/",
   "https://cdn.jsdelivr.net",
-   "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const styleSrcUrls = [
   "https://kit-free.fontawesome.com/",
@@ -95,12 +98,16 @@ const styleSrcUrls = [
   "https://api.tiles.mapbox.com/",
   "https://fonts.googleapis.com/",
   "https://use.fontawesome.com/",
+  "https://fonts.gstatic.com/",
+  "https://cdn.jsdelivr.net/",
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const connectSrcUrls = [
   "https://api.mapbox.com/",
   "https://a.tiles.mapbox.com/",
   "https://b.tiles.mapbox.com/",
   "https://events.mapbox.com/",
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const fontSrcUrls = [];
 app.use(
