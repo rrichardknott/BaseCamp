@@ -88,6 +88,7 @@ const scriptSrcUrls = [
   "https://cdnjs.cloudflare.com/",
   "https://fonts.gstatic.com/",
   "https://cdn.jsdelivr.net",
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const styleSrcUrls = [
   "https://kit-free.fontawesome.com/",
@@ -98,14 +99,14 @@ const styleSrcUrls = [
   "https://use.fontawesome.com/",
   "https://fonts.gstatic.com/",
   "https://cdn.jsdelivr.net/",
-  "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
-  // this is a comment
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const connectSrcUrls = [
   "https://api.mapbox.com/",
   "https://a.tiles.mapbox.com/",
   "https://b.tiles.mapbox.com/",
   "https://events.mapbox.com/",
+  "https://res.cloudinary.com/dkjeuhqog/",
 ];
 const fontSrcUrls = [];
 app.use(
